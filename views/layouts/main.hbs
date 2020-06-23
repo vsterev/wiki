@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki</title>
+    <link rel="stylesheet" href="/static/css/site.css">
+</head>
+
+<body>
+    <div>
+        {{> navigation}}
+        <div id="container">
+            {{#each errors}}
+            <section id="notifications">
+                <p>{{this}}</p>
+            </section>
+            {{/each}}
+            {{> header}}
+            <main>
+                <h1>Welcome to SoftUni Wiki!</h1>
+                {{{body}}}
+            </main>
+            {{> footer}}
+        </div>
+    </div>
+</body>
+
+</html>
