@@ -1,6 +1,6 @@
 # wiki
 NodeJS / MongoDB / Express &amp; Handelbars
-To run the project please type the commands below as follow 
+To run the project please type the commands below as follow
 npm install
 npm run start
 
